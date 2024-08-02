@@ -1,4 +1,4 @@
-⚡ Development in progress ⚡
+⚡ Development in progress (see dev branch) ⚡
 👉 I use Docker for API, but you can run it locally
 
 # Cockpit Minecraft Server Dashboard
