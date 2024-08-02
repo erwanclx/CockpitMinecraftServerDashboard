@@ -1,0 +1,9 @@
+@use "page.scss";
+
+p {
+    font-weight: bold;
+}
+
+html:not(.index-page) body {
+    overflow-block: auto;
+}

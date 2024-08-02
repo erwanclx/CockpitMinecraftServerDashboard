@@ -1,0 +1,13 @@
+{
+  "requires": {
+        "cockpit": "137"
+    },
+
+    "tools": {
+        "index": {
+            "label": "Console Minecraft"
+        }
+    },
+    "content-security-policy": "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src *; connect-src *"
+}
+

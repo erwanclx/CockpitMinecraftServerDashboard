@@ -1,0 +1,5 @@
+const env = {
+    REACT_APP_RCON_URL: "https://example.io",
+}
+
+export { env };
