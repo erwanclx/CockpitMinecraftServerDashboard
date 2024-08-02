@@ -2,9 +2,15 @@
 👉 I use Docker for API, but you can run it locally
 
 # Components
+- [Pre-requisites](#pre-requisites)
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Usage](#usage)
+
+# Pre-requisites
+
+Obiously, you need a Minecraft Server running, and, Cockpit installed on the server where the Minecraft Server is running.
+You also need to have RCON enabled on the Minecraft Server, and Docker installed on the server where the API will be running.
 
 # Introduction
 This is an extension of embarqued Linux Cockpit to manage Minecraft Server with RCON, logs, player list, etc.
