@@ -12,7 +12,7 @@ export default function Manage(status: any) {
             <div style={{ display: 'flex', gap: '10px' }}>
                 <StartServerButton disabled={serviceStatus === 'Loading...' || serviceStatus === 'active'} />
                 <StopServerButton disabled={serviceStatus === 'Loading...' || serviceStatus !== 'active'} />
-                <RestartServerButton disabled={serviceStatus === 'Loading...' || serviceStatus === 'active'} />
+                <RestartServerButton disabled={serviceStatus === 'Loading...' || serviceStatus !== 'active'} />
             </div>
         </div>
     );
