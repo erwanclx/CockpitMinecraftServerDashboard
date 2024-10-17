@@ -27,9 +27,11 @@ It is compose by two parts:
 ### API
 
 First, you need to install the API on a server, it can be same server as the Minecraft Server or another one.
+
 ```bash
 git clone git@github.com:erwanclx/MinecraftServerRCONAPI.git
 cd MinecraftServerRCONAPI
+# /!\   BEFORE RUN, CREATE THE .ENV FILE IN MinecraftServerRCONAPI !!
 docker-compose up -d
 ```
 
